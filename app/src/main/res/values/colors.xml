@@ -11,4 +11,7 @@
     <color name="purple">#9C27B0</color>
     <color name="grey">#B3B3B3</color>
     <color name="dark_gray">#888888</color>
+    <color name="light_gray">#e7e7e7</color>
+    <color name="white">#ffffff</color>
+    <color name="light_white">#ccffffff</color>
 </resources>

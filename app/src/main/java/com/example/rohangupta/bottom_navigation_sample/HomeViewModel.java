@@ -7,7 +7,11 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 
 import com.example.rohangupta.bottom_navigation_sample.base.view.MvvmView;
+import com.example.rohangupta.bottom_navigation_sample.fragments.ExploreFragment;
 import com.example.rohangupta.bottom_navigation_sample.fragments.HomeFragment;
+import com.example.rohangupta.bottom_navigation_sample.fragments.NewsFragment;
+import com.example.rohangupta.bottom_navigation_sample.fragments.ProfileFragment;
+import com.example.rohangupta.bottom_navigation_sample.fragments.ShareFragment;
 
 /**
  * Created by rohan on 16/04/18.
@@ -85,19 +89,19 @@ public class HomeViewModel implements HomeMvvm.ViewModel {
     }
 
     private void showExploreFragment() {
-        replaceFragment(new HomeFragment());
+        replaceFragment(new ExploreFragment());
     }
 
     private void showShareFragment() {
-        replaceFragment(new HomeFragment());
+        replaceFragment(new ShareFragment());
     }
 
     private void showNewsFragment() {
-        replaceFragment(new HomeFragment());
+        replaceFragment(new NewsFragment());
     }
 
     private void showProfileFragment() {
-        replaceFragment(new HomeFragment());
+        replaceFragment(new ProfileFragment());
     }
 
     private void replaceFragment(Fragment fragment) {
